@@ -1,0 +1,14 @@
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.AssemblyInfo.cs
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\hw\bin\Debug\net8.0\hw.exe
+C:\Users\User\RiderProjects\hw\bin\Debug\net8.0\hw.deps.json
+C:\Users\User\RiderProjects\hw\bin\Debug\net8.0\hw.runtimeconfig.json
+C:\Users\User\RiderProjects\hw\bin\Debug\net8.0\hw.dll
+C:\Users\User\RiderProjects\hw\bin\Debug\net8.0\hw.pdb
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.dll
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\refint\hw.dll
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.pdb
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\hw.genruntimeconfig.cache
+C:\Users\User\RiderProjects\hw\obj\Debug\net8.0\ref\hw.dll
