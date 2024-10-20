@@ -54,12 +54,20 @@
                 case "5":
                     Console.WriteLine("Enter type: ");
                     string type = Console.ReadLine();
+                    Type shape_type = null;
+
                     if (type == "Triangle")
-                        help.show_shapes_type(typeof(Triangle));
+                        shape_type = typeof(Triangle);
                     else if (type == "Rectangle")
-                        help.show_shapes_type(typeof(Rectangle));
+                        shape_type = typeof(Rectangle);
                     else if (type == "Circle")
-                        help.show_shapes_type(typeof(Circle));
+                        shape_type = typeof(Circle);
+                    else
+                    {
+                        Console.WriteLine("Unknown type");
+                        break;
+                    }
+                    help.show_shapes_type(shape_type);
                     break;
                 case "6":
                     Console.WriteLine($"Total area: {help.all_area()}");
@@ -67,12 +75,20 @@
                 case "7":
                     Console.WriteLine("Enter type: ");
                     type = Console.ReadLine();
+                    shape_type = null;
+
                     if (type == "Triangle")
-                        Console.WriteLine($"Total area of triangles: {help.area_by_type(typeof(Triangle))}");
+                        shape_type = typeof(Triangle);
                     else if (type == "Rectangle")
-                        Console.WriteLine($"Total area of rectangles: {help.area_by_type(typeof(Rectangle))}");
+                        shape_type = typeof(Rectangle);
                     else if (type == "Circle")
-                        Console.WriteLine($"Total area of circles: {help.area_by_type(typeof(Circle))}");
+                        shape_type = typeof(Circle);
+                    else
+                    {
+                        Console.WriteLine("Unknown type");
+                        break;
+                    }
+                    Console.WriteLine($"Total area of {type.ToLower()}: {help.area_by_type(shape_type)}");
                     break;
                 case "8":
                     Console.Write("Enter name of file to save: ");

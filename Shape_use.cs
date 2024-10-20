@@ -51,13 +51,14 @@ public class Shape_use
     {
         for (int i = 0; i < count; i++)
         {
-            if (shapes[i].GetType() == type)
+            Shape shape = shapes[i] as Shape;
+            if (shape != null && shape.GetType() == type)
             {
-                shapes[i].Show();
+                shape.Show();
             }
         }
     }
-
+    
     public double all_area()
     {
         double total = 0;
@@ -73,9 +74,10 @@ public class Shape_use
         double total = 0;
         for (int i = 0; i < count; i++)
         {
-            if (shapes[i].GetType() == type)
+            Shape shape = shapes[i] as Shape;
+            if (shape != null && shape.GetType() == type)
             {
-                total += shapes[i].Area();
+                total += shape.Area();
             }
         }
         return total;
